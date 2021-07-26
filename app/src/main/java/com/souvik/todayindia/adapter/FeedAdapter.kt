@@ -22,6 +22,7 @@ class FeedAdapter(
                 binding.cvCard.visibility = View.VISIBLE
                 Glide.with(binding.ivImage.context)
                     .load(data.urlToImage)
+                    .placeholder(R.drawable.ic_baseline_broken_image_24)
                     .into(binding.ivImage)
             }
             binding.tvHeading.text = data.title

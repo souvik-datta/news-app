@@ -14,13 +14,13 @@
 
         <TextView
             android:id="@+id/location"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="@dimen/zero_dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:padding="5dp"/>
+            android:padding="@dimen/diam_5dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

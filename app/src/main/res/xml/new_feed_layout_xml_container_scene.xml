@@ -15,8 +15,8 @@
         <Constraint
             android:id="@+id/cvCard"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="16dp"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_marginTop="@dimen/diam_16dp"
             android:alpha="0"
             android:visibility="gone"
             motion:layout_constraintDimensionRatio="16:9"
@@ -25,9 +25,9 @@
             motion:layout_constraintTop_toTopOf="parent" />
         <Constraint
             android:id="@+id/tvHeading"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/diam_10dp"
             android:scaleX="0.5"
             android:scaleY="0.5"
             motion:layout_constraintEnd_toEndOf="@id/cvCard"
@@ -35,10 +35,10 @@
             motion:layout_constraintTop_toBottomOf="@id/cvCard" />
         <Constraint
             android:id="@+id/tvSubHeading"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/diam_10dp"
+            android:layout_marginBottom="@dimen/diam_10dp"
             android:scaleX="0.5"
             android:scaleY="0.5"
             motion:layout_constraintBottom_toBottomOf="parent"
@@ -50,9 +50,9 @@
     <ConstraintSet android:id="@+id/end">
         <Constraint
             android:id="@+id/tvHeading"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/diam_10dp"
             android:scaleX="1"
             android:scaleY="1"
             motion:layout_constraintEnd_toEndOf="@id/cvCard"
@@ -60,10 +60,10 @@
             motion:layout_constraintTop_toBottomOf="@id/cvCard" />
         <Constraint
             android:id="@+id/tvSubHeading"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/diam_10dp"
+            android:layout_marginBottom="@dimen/diam_10dp"
             android:scaleX="1"
             android:scaleY="1"
             motion:layout_constraintBottom_toBottomOf="parent"
